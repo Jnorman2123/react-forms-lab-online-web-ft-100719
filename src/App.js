@@ -3,6 +3,9 @@ import LoginForm from "./components/LoginForm";
 import TwitterMessage from "./components/TwitterMessage";
 
 class App extends Component {
+  state = {
+  
+  }
 
   login = ({ username, password }) => {
     console.log(`Logging in ${username} with password ${password}`);
